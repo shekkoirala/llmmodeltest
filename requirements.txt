@@ -8,6 +8,6 @@ gradio_client
 tenacity
 tiktoken
 rich
-chromadb
+chromadb==0.3.25
 pdf2image
 tabulate
