@@ -45,7 +45,7 @@ def retrieve_and_answer():
     query = data['query']
     
     # Document retrieval and question-answering logic
-    documents = find_md_files('/home/shekhar/Desktop/flaskapi/data/')
+    documents = find_md_files('data')
     document_sections = md_text_splitter.split_documents(documents)
     tokenizer = tiktoken.encoding_for_model(MODEL_NAME)
     token_counts = [len(tokenizer.encode(document.page_content)) for document in document_sections]
