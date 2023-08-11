@@ -2,10 +2,10 @@ flask
 llama-index
 langchain
 rich
-openai
 tiktoken
 wandb
 unstructured==0.7.12
 tabulate
 pdf2image
 chromadb
+openai
