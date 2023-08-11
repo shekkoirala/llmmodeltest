@@ -2,7 +2,7 @@ wandb
 openai
 pandas
 unstructured>=0.7.12
-langchain>
+langchain
 gradio
 gradio_client
 tenacity
