@@ -35,6 +35,10 @@ md_text_splitter = MarkdownTextSplitter(chunk_size=1000)
 
 embeddings = OpenAIEmbeddings()
 
+@app.route("/")
+def hello():
+    return "Hello, World!"
+
 @app.route('/retrieve_and_answer', methods=['POST'])
 def retrieve_and_answer():
     data = request.get_json()
