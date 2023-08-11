@@ -1,7 +1,7 @@
 wandb
 openai
 pandas
-unstructured>=0.7.12
+unstructured==0.7.12
 langchain
 gradio
 gradio_client
